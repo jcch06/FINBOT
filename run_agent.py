@@ -22,7 +22,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("RunAgent")
 
-SYSTEM_PROMPT = """You are the Lead Portfolio Analyst and Allocation Agent for an automated quantitative portfolio covering AI Infrastructure, Power/Energy, and Robotics.
+SYSTEM_PROMPT = """You are the Lead Portfolio Analyst and Allocation Agent for an automated quantitative portfolio covering AI Infrastructure (Compute), Power/Energy, Robotics, and Biotech/Genomics.
 
 CORE MANDATES:
 1. Concentration: exactly 10 positions max (High Conviction Pure Meritocracy). Minimum 10.0% cash buffer (e.g. 12.0% cash, 88.0% invested capital).
@@ -46,7 +46,7 @@ You MUST output ONLY a strictly valid JSON object adhering to this schema:
       "ticker": "STRING",
       "action": "BUY_NEW | ADD | HOLD | TRIM | EXIT",
       "target_weight": 0.09,
-      "sector_bucket": "COMPUTE | POWER | ROBOTICS",
+      "sector_bucket": "COMPUTE | POWER | ROBOTICS | BIOTECH",
       "forecasts": {
         "1_session": "BULLISH | NEUTRAL | BEARISH",
         "5_session": "BULLISH | NEUTRAL | BEARISH",

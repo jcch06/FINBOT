@@ -46,7 +46,7 @@ def check_market_session():
 def main():
     logger.info("==========================================================")
     logger.info("STARTING QUANTITATIVE PORTFOLIO REBALANCE PIPELINE")
-    logger.info("Universe: AI Infrastructure (Compute) | Energy (Power) | Robotics")
+    logger.info("Universe: AI Infrastructure (Compute) | Energy (Power) | Robotics | Biotech")
     logger.info("==========================================================")
 
     # 1. Market Time & DST Verification
@@ -102,6 +102,7 @@ def main():
     logger.info(f"  Sector Compute: {sector['compute_weight']*100:.1f}%")
     logger.info(f"  Sector Power:   {sector['power_weight']*100:.1f}%")
     logger.info(f"  Sector Robotics:{sector['robotics_weight']*100:.1f}%")
+    logger.info(f"  Sector Biotech: {sector.get('biotech_weight', 0.0)*100:.1f}%")
     logger.info(f"  Consolidated AI Infrastructure (Compute + Power): {sector['consolidated_ai_datacenter']*100:.1f}% (Cap: {sector['cap_limit']*100:.1f}%) -> {sector['status']}")
     logger.info(f"  Orders generated: {audit_result['total_orders_generated']}")
     logger.info(f"  Total BUY Notional:  ${audit_result['total_buy_notional_usd']:,.2f}")

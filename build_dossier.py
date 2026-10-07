@@ -37,7 +37,8 @@ logger = logging.getLogger("DossierBuilder")
 DEFAULT_UNIVERSE: Dict[str, list] = {
     "COMPUTE": ["NVDA", "TSM", "AVGO", "MRVL", "ANET", "VRT", "ARM", "MU", "AMD", "CLS", "NBIS"],
     "POWER": ["CEG", "VST", "GEV", "TLN", "NRG", "NEE", "ETN", "CCJ", "SMR", "OKLO"],
-    "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB"]
+    "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB"],
+    "BIOTECH": ["ABCL", "HIMS", "PRME", "CRSP", "VRTX", "MRNA", "REGN", "NTRA", "RXRX", "SDGR"]
 }
 
 def get_target_universe() -> Dict[str, list]:
@@ -468,7 +469,8 @@ def build_instruction_dossier(output_file: str = "dossier.json") -> Dict[str, An
 
                 # Couche de renseignement Web en direct via Tavily (catalyseurs récents)
                 news_catalysts = []
-                if sym in USER_LONG_TERM_PORTFOLIO:
+                held_positions = list(account_context.get("positions", {}).keys())
+                if sym in held_positions or sym in USER_LONG_TERM_PORTFOLIO:
                     news_catalysts = fetch_tavily_catalysts(sym)
 
                 # Couche Flux d'Options & Actionnariat Institutionnel

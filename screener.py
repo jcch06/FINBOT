@@ -26,19 +26,27 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("DynamicScreener")
 
-# Vivier élargi de candidats à screener
+# Vivier élargi de 120 candidats à screener (30 par thème)
 SCREENER_POOL = {
     "COMPUTE": [
-        "NVDA", "TSM", "AVGO", "MRVL", "ANET", "VRT", "ARM", "MU", "AMD", "CLS", "NBIS",
-        "PLTR", "ASML", "QCOM", "CRWD", "SMCI"
+        "NVDA", "TSM", "AVGO", "MRVL", "ANET", "VRT", "ARM", "MU", "AMD", "CLS",
+        "NBIS", "PLTR", "ASML", "QCOM", "CRWD", "SMCI", "MSFT", "AMZN", "GOOGL", "META",
+        "AAPL", "ORCL", "DELL", "HPE", "CDNS", "WDC", "AMAT", "LRCX", "KLAC", "SNPS"
     ],
     "POWER": [
         "CEG", "VST", "GEV", "TLN", "NRG", "NEE", "ETN", "CCJ", "SMR", "OKLO",
-        "BWXT", "NNE", "PWR", "FLR", "DUK"
+        "BWXT", "NNE", "PWR", "FLR", "DUK", "SO", "AEP", "EXC", "SRE", "HUBB",
+        "EMR", "LEU", "UEC", "NXE", "AES", "BE", "XEL", "KMI", "WMB", "PCG"
     ],
     "ROBOTICS": [
-        "ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB",
-        "ASTS", "JOBY", "ACHR", "AUR", "MBLY", "CGNX"
+        "ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB", "ASTS",
+        "JOBY", "ACHR", "AUR", "MBLY", "CGNX", "TSLA", "AVAV", "KTOS", "HON", "OUST",
+        "INVZ", "AEVA", "KEYS", "ATS", "GXO", "IR", "LUNR", "PL", "LDOS", "AXON"
+    ],
+    "BIOTECH": [
+        "ABCL", "HIMS", "PRME", "CRSP", "BEAM", "NTLA", "EDIT", "DNA", "RXRX", "SDGR",
+        "VRTX", "MRNA", "BNTX", "ALNY", "IONS", "BMRN", "INCY", "REGN", "ARGX", "ILMN",
+        "PACB", "TXG", "NTRA", "TEM", "CRBU", "ROIV", "KYMR", "ARVN", "RPRX", "BBIO"
     ]
 }
 
@@ -97,8 +105,8 @@ def run_screener(top_per_sector: int = 10):
     logger.info("Démarrage du screener quantitatif élargi...")
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    scored_candidates = {"COMPUTE": [], "POWER": [], "ROBOTICS": []}
-    new_watchlist = {"COMPUTE": [], "POWER": [], "ROBOTICS": []}
+    scored_candidates = {"COMPUTE": [], "POWER": [], "ROBOTICS": [], "BIOTECH": []}
+    new_watchlist = {"COMPUTE": [], "POWER": [], "ROBOTICS": [], "BIOTECH": []}
 
     for sector, tickers in SCREENER_POOL.items():
         logger.info(f"Screening du secteur {sector} ({len(tickers)} candidats)...")
@@ -182,7 +190,7 @@ def run_screener(top_per_sector: int = 10):
     print("\n================================================================================")
     print("CLASSEMENT DU SCREENER QUANTITATIF (TOP VALEURS SÉLECTIONNÉES POUR LA WATCHLIST)")
     print("================================================================================")
-    for sec in ["COMPUTE", "POWER", "ROBOTICS"]:
+    for sec in ["COMPUTE", "POWER", "ROBOTICS", "BIOTECH"]:
         print(f"\n--- SECTEUR : {sec} ---")
         print(f"{'RANG':<4} | {'SYM':<5} | {'SCORE':>6} | {'PRIX':>7} | {'RSI':>5} | {'DIST EMA':>8} | {'UPSIDE':>7} | {'MARGE':>6} | {'STATUT':<12}")
         print("--------------------------------------------------------------------------------")
@@ -196,7 +204,7 @@ def run_screener(top_per_sector: int = 10):
         with open(gh_summary, "a", encoding="utf-8") as gf:
             gf.write(f"### 🔍 Daily Market Screener Report ({now_utc})\n\n")
             gf.write(f"Watchlist mise à jour : **{sum(len(v) for v in new_watchlist.values())} actions sélectionnées**.\n\n")
-            for sec in ["COMPUTE", "POWER", "ROBOTICS"]:
+            for sec in ["COMPUTE", "POWER", "ROBOTICS", "BIOTECH"]:
                 gf.write(f"#### Secteur : {sec}\n")
                 gf.write("| Rang | Ticker | Score | Cours | RSI | Distance EMA | Upside Cible | Marge Brute | Statut |\n")
                 gf.write("| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n")

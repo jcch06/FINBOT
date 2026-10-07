@@ -4,35 +4,47 @@
     "NBIS",
     "NVDA",
     "AVGO",
+    "ORCL",
+    "WDC",
     "PLTR",
+    "CDNS",
     "TSM",
-    "VRT",
-    "ANET",
-    "CLS",
-    "MRVL"
+    "META"
   ],
   "POWER": [
     "OKLO",
     "NNE",
     "TLN",
+    "BE",
     "NRG",
+    "LEU",
+    "NXE",
     "BWXT",
-    "NEE",
-    "SMR",
-    "CCJ",
-    "GEV",
-    "DUK"
+    "UEC",
+    "PCG"
   ],
   "ROBOTICS": [
     "ONDS",
     "JOBY",
+    "LUNR",
     "SERV",
     "AUR",
+    "PL",
     "ASTS",
-    "ACHR",
-    "RKLB",
-    "TER",
-    "MBLY",
-    "CGNX"
+    "KTOS",
+    "AXON",
+    "AEVA"
+  ],
+  "BIOTECH": [
+    "ARVN",
+    "EDIT",
+    "BBIO",
+    "ALNY",
+    "CRSP",
+    "KYMR",
+    "BMRN",
+    "ARGX",
+    "PRME",
+    "BEAM"
   ]
 }

@@ -39,7 +39,7 @@ class RiskEngineOMS:
         Control 2: Evaluates consolidated sector / factor exposure.
         Enforces maximum consolidated CapEx exposure (Compute + Power).
         """
-        sector_weights = {"COMPUTE": 0.0, "POWER": 0.0, "ROBOTICS": 0.0}
+        sector_weights = {"COMPUTE": 0.0, "POWER": 0.0, "ROBOTICS": 0.0, "BIOTECH": 0.0}
         for item in self.allocations:
             if item["action"] in ["BUY_NEW", "ADD", "HOLD", "TRIM"]:
                 sec = item.get("sector_bucket", "UNKNOWN")
@@ -51,6 +51,7 @@ class RiskEngineOMS:
             "compute_weight": round(sector_weights["COMPUTE"], 4),
             "power_weight": round(sector_weights["POWER"], 4),
             "robotics_weight": round(sector_weights["ROBOTICS"], 4),
+            "biotech_weight": round(sector_weights["BIOTECH"], 4),
             "consolidated_ai_datacenter": round(consolidated_ai, 4),
             "cap_limit": self.max_consolidated_ai_cap,
             "status": "PASS" if consolidated_ai <= self.max_consolidated_ai_cap else "WARNING_OVER_CAP"
