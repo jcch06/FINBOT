@@ -1,0 +1,7 @@
+google-genai
+alpaca-py
+yfinance
+pandas
+numpy
+requests
+python-dotenv

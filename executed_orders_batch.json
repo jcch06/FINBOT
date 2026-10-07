@@ -1,0 +1,138 @@
+{
+  "account_equity": 100000.0,
+  "sector_audit": {
+    "compute_weight": 0.37,
+    "power_weight": 0.25,
+    "robotics_weight": 0.26,
+    "consolidated_ai_datacenter": 0.62,
+    "cap_limit": 0.7,
+    "status": "PASS"
+  },
+  "total_orders_generated": 10,
+  "total_buy_notional_usd": 87999.97,
+  "total_sell_notional_usd": 0,
+  "net_capital_flow_usd": 87999.97,
+  "alerts": [],
+  "order_tickets": [
+    {
+      "symbol": "NBIS",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 36.0187,
+      "executed_shares": 36.0187,
+      "estimated_price": 249.87,
+      "estimated_notional_usd": 8999.99,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    },
+    {
+      "symbol": "ONDS",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 1079.6221,
+      "executed_shares": 1079.6221,
+      "estimated_price": 7.41,
+      "estimated_notional_usd": 8000.0,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 8.00%"
+    },
+    {
+      "symbol": "RKLB",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 119.9041,
+      "executed_shares": 119.9041,
+      "estimated_price": 75.06,
+      "estimated_notional_usd": 9000.0,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 41.799,
+      "executed_shares": 41.799,
+      "estimated_price": 239.24,
+      "estimated_notional_usd": 9999.99,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 10.00%"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 23.9483,
+      "executed_shares": 23.9483,
+      "estimated_price": 375.81,
+      "estimated_notional_usd": 9000.01,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    },
+    {
+      "symbol": "MU",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 8.6078,
+      "executed_shares": 8.6078,
+      "estimated_price": 1045.56,
+      "estimated_notional_usd": 8999.97,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    },
+    {
+      "symbol": "NRG",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 86.8726,
+      "executed_shares": 86.8726,
+      "estimated_price": 103.6,
+      "estimated_notional_usd": 9000.0,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    },
+    {
+      "symbol": "OKLO",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 207.5227,
+      "executed_shares": 207.5227,
+      "estimated_price": 38.55,
+      "estimated_notional_usd": 8000.0,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 8.00%"
+    },
+    {
+      "symbol": "CEG",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 26.6312,
+      "executed_shares": 26.6312,
+      "estimated_price": 300.4,
+      "estimated_notional_usd": 8000.01,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 8.00%"
+    },
+    {
+      "symbol": "ISRG",
+      "side": "BUY",
+      "action_origin": "BUY_NEW",
+      "requested_shares": 22.2354,
+      "executed_shares": 22.2354,
+      "estimated_price": 404.76,
+      "estimated_notional_usd": 9000.0,
+      "order_type": "MARKET",
+      "routing": "Alpaca fractional API compatible",
+      "notes": "Weight shift 0.00% -> 9.00%"
+    }
+  ]
+}

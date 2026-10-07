@@ -1,0 +1,16 @@
+# Environment & Keys
+.env
+.env.local
+*.env
+
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary & Log files
+*.log
+scratch/
+.system_generated/

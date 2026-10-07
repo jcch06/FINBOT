@@ -1,0 +1,51 @@
+name: Daily Quantitative Rebalance & Risk OMS
+
+on:
+  schedule:
+    # 19:30 UTC = 15:30 New York (EDT) / 21:30 Paris (CEST) du lundi au vendredi
+    - cron: '30 19 * * 1-5'
+  workflow_dispatch: # Permet de lancer manuellement depuis l'interface GitHub
+
+jobs:
+  rebalance:
+    name: Run Quantitative Portfolio Rebalance
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute Quantitative Pipeline (Tier 1 -> Tier 2 -> Tier 3)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+          APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+          APCA_API_BASE_URL: "https://paper-api.alpaca.markets"
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_MODEL: "gemini-3.8-flash"
+          AUTO_ESCALATE_TO_PRO: "true"
+        run: |
+          python run_rebalance.py
+
+      - name: Upload Execution Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rebalance-artifacts
+          path: |
+            dossier.json
+            oms_payload.json
+            executed_orders_batch.json
+            broker_execution_receipts.json
+          retention-days: 7

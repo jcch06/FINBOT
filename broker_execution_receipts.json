@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "NBIS",
+    "order_id": "1819081e-0e0a-40cd-a84b-27bdfbc1391a",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 36.0187,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.064053+00:00"
+  },
+  {
+    "symbol": "ONDS",
+    "order_id": "1d21aae0-f172-435e-be8c-deeac65a39d4",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 1079.6221,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.170880+00:00"
+  },
+  {
+    "symbol": "RKLB",
+    "order_id": "b987d4b2-327c-48ce-bcbd-2341cc000da4",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 119.9041,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.270230+00:00"
+  },
+  {
+    "symbol": "NVDA",
+    "order_id": "565d535e-a5ce-44fc-9cb2-ae468154adea",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 41.799,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.374495+00:00"
+  },
+  {
+    "symbol": "AVGO",
+    "order_id": "61a4282f-97e3-4e09-9500-003be7182545",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 23.9483,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.477760+00:00"
+  },
+  {
+    "symbol": "MU",
+    "order_id": "153bc24b-be99-40a6-ac62-08220bad9b9c",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 8.6078,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.598815+00:00"
+  },
+  {
+    "symbol": "NRG",
+    "order_id": "45cc644f-2c15-4073-90eb-bfbee8412675",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 86.8726,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.783919+00:00"
+  },
+  {
+    "symbol": "OKLO",
+    "order_id": "7ca12c04-0b9a-4f55-ba96-288e59fdef9d",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 207.5227,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.886388+00:00"
+  },
+  {
+    "symbol": "CEG",
+    "order_id": "8828e460-20c6-4856-bdc0-476022c5e194",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 26.6312,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:56.987403+00:00"
+  },
+  {
+    "symbol": "ISRG",
+    "order_id": "e606dcc6-00e5-4cee-985a-dcc13d40c7dc",
+    "status": "OrderStatus.PENDING_NEW",
+    "qty": 22.2354,
+    "side": "BUY",
+    "created_at": "2026-10-07 10:48:57.091722+00:00"
+  }
+]
