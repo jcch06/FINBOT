@@ -41,12 +41,14 @@ SCREENER_POOL = {
     "ROBOTICS": [
         "ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB", "ASTS",
         "JOBY", "ACHR", "AUR", "MBLY", "CGNX", "TSLA", "AVAV", "KTOS", "HON", "OUST",
-        "INVZ", "AEVA", "KEYS", "ATS", "GXO", "IR", "LUNR", "PL", "LDOS", "AXON"
+        "INVZ", "AEVA", "KEYS", "ATS", "GXO", "IR", "LUNR", "PL", "LDOS", "AXON",
+        "KRKNF"
     ],
     "BIOTECH": [
         "ABCL", "HIMS", "PRME", "CRSP", "BEAM", "NTLA", "EDIT", "DNA", "RXRX", "SDGR",
         "VRTX", "MRNA", "BNTX", "ALNY", "IONS", "BMRN", "INCY", "REGN", "ARGX", "ILMN",
-        "PACB", "TXG", "NTRA", "TEM", "CRBU", "ROIV", "KYMR", "ARVN", "RPRX", "BBIO"
+        "PACB", "TXG", "NTRA", "TEM", "CRBU", "ROIV", "KYMR", "ARVN", "RPRX", "BBIO",
+        "NAUT"
     ]
 }
 

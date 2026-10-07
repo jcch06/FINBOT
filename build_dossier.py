@@ -37,8 +37,8 @@ logger = logging.getLogger("DossierBuilder")
 DEFAULT_UNIVERSE: Dict[str, list] = {
     "COMPUTE": ["NVDA", "TSM", "AVGO", "MRVL", "ANET", "VRT", "ARM", "MU", "AMD", "CLS", "NBIS"],
     "POWER": ["CEG", "VST", "GEV", "TLN", "NRG", "NEE", "ETN", "CCJ", "SMR", "OKLO"],
-    "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB"],
-    "BIOTECH": ["ABCL", "HIMS", "PRME", "CRSP", "VRTX", "MRNA", "REGN", "NTRA", "RXRX", "SDGR"]
+    "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB", "KRKNF"],
+    "BIOTECH": ["ABCL", "HIMS", "PRME", "CRSP", "VRTX", "MRNA", "REGN", "NTRA", "RXRX", "SDGR", "NAUT"]
 }
 
 def get_target_universe() -> Dict[str, list]:
