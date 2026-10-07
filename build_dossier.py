@@ -40,7 +40,7 @@ TARGET_UNIVERSE: Dict[str, list] = {
     "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB"]
 }
 
-USER_LONG_TERM_PORTFOLIO = ["ONDS", "NBIS", "RKLB"]
+USER_LONG_TERM_PORTFOLIO = []
 
 # Configuration des en-têtes SEC EDGAR
 SEC_EDGAR_IDENTITY = os.getenv("SEC_EDGAR_IDENTITY", "UserAgent: AntigravityBot admin@quantportfolio.internal")
@@ -467,17 +467,9 @@ def build_instruction_dossier(output_file: str = "dossier.json") -> Dict[str, An
             except Exception as e:
                 logger.error(f"Erreur d'ingestion sur {sym}: {e}")
 
-    # Extraction ciblée du portefeuille long terme de l'utilisateur
-    long_term_focus = {}
-    for sec, tickers_dict in candidate_universe.items():
-        for sym, data in tickers_dict.items():
-            if sym in USER_LONG_TERM_PORTFOLIO:
-                long_term_focus[sym] = data
-
     dossier = {
         "dossier_timestamp": now_utc,
         "account_context": account_context,
-        "user_long_term_focus": long_term_focus,
         "candidate_universe": candidate_universe
     }
 
