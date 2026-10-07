@@ -1,0 +1,132 @@
+{
+  "check_timestamp": "2026-10-07T14:32:01.478914+00:00",
+  "wall_street_time": "2026-10-07 10:32:01 EDT",
+  "total_equity": 100433.74,
+  "cash_balance": 13984.67,
+  "total_unrealized_pl_usd": 433.74,
+  "positions_count": 10,
+  "alerts": [],
+  "actions_taken": [],
+  "positions": [
+    {
+      "symbol": "AVGO",
+      "shares": 23.9483,
+      "entry_price": 372.34,
+      "current_price": 371.93,
+      "unrealized_pl_usd": -9.87,
+      "unrealized_pl_pct": -0.11,
+      "stop_loss_price": 355.54,
+      "margin_to_stop_pct": 4.4,
+      "take_profit_1": 531.31,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "CEG",
+      "shares": 26.6312,
+      "entry_price": 289.04,
+      "current_price": 292.71,
+      "unrealized_pl_usd": 97.77,
+      "unrealized_pl_pct": 1.27,
+      "stop_loss_price": 276.91,
+      "margin_to_stop_pct": 5.4,
+      "take_profit_1": 341.53,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "ISRG",
+      "shares": 22.2354,
+      "entry_price": 407.79,
+      "current_price": 413.17,
+      "unrealized_pl_usd": 119.64,
+      "unrealized_pl_pct": 1.32,
+      "stop_loss_price": 384.13,
+      "margin_to_stop_pct": 7.0,
+      "take_profit_1": 477.21,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "MU",
+      "shares": 8.6078,
+      "entry_price": 1017.6,
+      "current_price": 1054.47,
+      "unrealized_pl_usd": 317.36,
+      "unrealized_pl_pct": 3.62,
+      "stop_loss_price": 967.37,
+      "margin_to_stop_pct": 8.3,
+      "take_profit_1": 1535.57,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "NBIS",
+      "shares": 36.0187,
+      "entry_price": 238.99,
+      "current_price": 238.33,
+      "unrealized_pl_usd": -23.77,
+      "unrealized_pl_pct": -0.28,
+      "stop_loss_price": 220.35,
+      "margin_to_stop_pct": 7.5,
+      "take_profit_1": 282.53,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "NRG",
+      "shares": 86.8726,
+      "entry_price": 102.42,
+      "current_price": 105.27,
+      "unrealized_pl_usd": 247.53,
+      "unrealized_pl_pct": 2.78,
+      "stop_loss_price": 95.68,
+      "margin_to_stop_pct": 9.1,
+      "take_profit_1": 185.5,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "NVDA",
+      "shares": 41.799,
+      "entry_price": 237.45,
+      "current_price": 237.94,
+      "unrealized_pl_usd": 20.27,
+      "unrealized_pl_pct": 0.2,
+      "stop_loss_price": 228.76,
+      "margin_to_stop_pct": 3.9,
+      "take_profit_1": 328.72,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "OKLO",
+      "shares": 207.5227,
+      "entry_price": 36.56,
+      "current_price": 36.59,
+      "unrealized_pl_usd": 5.6,
+      "unrealized_pl_pct": 0.07,
+      "stop_loss_price": 34.52,
+      "margin_to_stop_pct": 5.7,
+      "take_profit_1": 75.78,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "ONDS",
+      "shares": 1079.6221,
+      "entry_price": 7.24,
+      "current_price": 7.05,
+      "unrealized_pl_usd": -206.69,
+      "unrealized_pl_pct": -2.64,
+      "stop_loss_price": 6.67,
+      "margin_to_stop_pct": 5.4,
+      "take_profit_1": 13.0,
+      "status": "SAFE"
+    },
+    {
+      "symbol": "RKLB",
+      "shares": 119.9041,
+      "entry_price": 72.88,
+      "current_price": 71.76,
+      "unrealized_pl_usd": -134.1,
+      "unrealized_pl_pct": -1.54,
+      "stop_loss_price": 67.79,
+      "margin_to_stop_pct": 5.5,
+      "take_profit_1": 109.15,
+      "status": "SAFE"
+    }
+  ]
+}

@@ -33,12 +33,29 @@ logging.basicConfig(
 )
 logger = logging.getLogger("DossierBuilder")
 
-# 1. Univers d'investissement cible (enrichi des lignes stratégiques long terme)
-TARGET_UNIVERSE: Dict[str, list] = {
+# 1. Univers d'investissement par défaut et chargement dynamique depuis watchlist.json
+DEFAULT_UNIVERSE: Dict[str, list] = {
     "COMPUTE": ["NVDA", "TSM", "AVGO", "MRVL", "ANET", "VRT", "ARM", "MU", "AMD", "CLS", "NBIS"],
     "POWER": ["CEG", "VST", "GEV", "TLN", "NRG", "NEE", "ETN", "CCJ", "SMR", "OKLO"],
     "ROBOTICS": ["ISRG", "SYM", "TER", "ROK", "ZBRA", "PATH", "SERV", "ONDS", "RKLB"]
 }
+
+def get_target_universe() -> Dict[str, list]:
+    """
+    Charge la watchlist dynamique mise à jour par screener.py (watchlist.json),
+    ou utilise l'univers par défaut.
+    """
+    watchlist_file = "watchlist.json"
+    if os.path.exists(watchlist_file):
+        try:
+            with open(watchlist_file, "r", encoding="utf-8") as f:
+                wl = json.load(f)
+                if isinstance(wl, dict) and len(wl) > 0:
+                    logger.info(f"Watchlist dynamique chargée depuis {watchlist_file} ({sum(len(v) for v in wl.values())} tickers).")
+                    return wl
+        except Exception as e:
+            logger.warning(f"Impossible de lire {watchlist_file} : {e}")
+    return DEFAULT_UNIVERSE
 
 USER_LONG_TERM_PORTFOLIO = []
 
@@ -425,7 +442,8 @@ def build_instruction_dossier(output_file: str = "dossier.json") -> Dict[str, An
     # 2. Analyse quantitative de l'univers
     candidate_universe: Dict[str, Dict[str, Any]] = {}
 
-    for sector, tickers in TARGET_UNIVERSE.items():
+    active_universe = get_target_universe()
+    for sector, tickers in active_universe.items():
         candidate_universe[sector] = {}
         for sym in tickers:
             logger.info(f"Traitement du ticker : {sym:<5} ({sector})")

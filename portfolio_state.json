@@ -1,8 +1,99 @@
 {
   "source": "ALPACA_PAPER_API",
-  "total_equity": 100000.0,
-  "cash_balance": 100000.0,
-  "cash_ratio": 1.0,
-  "active_positions_count": 0,
-  "positions": {}
+  "total_equity": 100355.17,
+  "cash_balance": 13984.67,
+  "cash_ratio": 0.1394,
+  "active_positions_count": 10,
+  "positions": {
+    "AVGO": {
+      "shares": 23.9483,
+      "current_price": 371.8,
+      "market_value_usd": 8903.98,
+      "cost_basis_usd": 8916.84,
+      "current_weight": 0.0887,
+      "unrealized_pl_usd": -12.86,
+      "unrealized_pl_pct": -0.14
+    },
+    "CEG": {
+      "shares": 26.6312,
+      "current_price": 291.32,
+      "market_value_usd": 7758.2,
+      "cost_basis_usd": 7697.58,
+      "current_weight": 0.0773,
+      "unrealized_pl_usd": 60.62,
+      "unrealized_pl_pct": 0.79
+    },
+    "ISRG": {
+      "shares": 22.2354,
+      "current_price": 412.48,
+      "market_value_usd": 9171.55,
+      "cost_basis_usd": 9067.36,
+      "current_weight": 0.0914,
+      "unrealized_pl_usd": 104.18,
+      "unrealized_pl_pct": 1.15
+    },
+    "MU": {
+      "shares": 8.6078,
+      "current_price": 1059.57,
+      "market_value_usd": 9120.57,
+      "cost_basis_usd": 8759.31,
+      "current_weight": 0.0909,
+      "unrealized_pl_usd": 361.26,
+      "unrealized_pl_pct": 4.12
+    },
+    "NBIS": {
+      "shares": 36.0187,
+      "current_price": 238.75,
+      "market_value_usd": 8599.46,
+      "cost_basis_usd": 8608.11,
+      "current_weight": 0.0857,
+      "unrealized_pl_usd": -8.64,
+      "unrealized_pl_pct": -0.1
+    },
+    "NRG": {
+      "shares": 86.8726,
+      "current_price": 104.61,
+      "market_value_usd": 9087.74,
+      "cost_basis_usd": 8897.11,
+      "current_weight": 0.0906,
+      "unrealized_pl_usd": 190.63,
+      "unrealized_pl_pct": 2.14
+    },
+    "NVDA": {
+      "shares": 41.799,
+      "current_price": 237.9,
+      "market_value_usd": 9943.87,
+      "cost_basis_usd": 9925.17,
+      "current_weight": 0.0991,
+      "unrealized_pl_usd": 18.69,
+      "unrealized_pl_pct": 0.19
+    },
+    "OKLO": {
+      "shares": 207.5227,
+      "current_price": 36.54,
+      "market_value_usd": 7582.88,
+      "cost_basis_usd": 7587.65,
+      "current_weight": 0.0756,
+      "unrealized_pl_usd": -4.77,
+      "unrealized_pl_pct": -0.06
+    },
+    "ONDS": {
+      "shares": 1079.6221,
+      "current_price": 7.07,
+      "market_value_usd": 7627.53,
+      "cost_basis_usd": 7818.03,
+      "current_weight": 0.076,
+      "unrealized_pl_usd": -190.5,
+      "unrealized_pl_pct": -2.44
+    },
+    "RKLB": {
+      "shares": 119.9041,
+      "current_price": 71.51,
+      "market_value_usd": 8574.35,
+      "cost_basis_usd": 8738.17,
+      "current_weight": 0.0854,
+      "unrealized_pl_usd": -163.81,
+      "unrealized_pl_pct": -1.88
+    }
+  }
 }

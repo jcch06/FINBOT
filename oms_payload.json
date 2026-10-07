@@ -1,167 +1,15 @@
 {
-  "session_timestamp": "2026-10-07T10:26:43Z",
+  "session_timestamp": "2026-10-07T14:36:22Z",
   "portfolio_summary": {
     "proposed_invested_capital_ratio": 0.88,
     "proposed_cash_ratio": 0.12,
     "active_positions_count": 10,
-    "turnover_intent_ratio": 0.88
-  },
-  "user_long_term_focus_analysis": {
-    "ONDS": {
-      "company_name": "Ondas Holdings",
-      "sector": "ROBOTICS",
-      "technical_diagnostic": {
-        "price": 7.41,
-        "rsi_14": 46.4,
-        "is_extended": false,
-        "hard_stop_price": 6.67
-      },
-      "fundamental_assessment": "High revenue growth (1235% YoY) with 43.7% gross margins. Strong analyst upside of 154% to mean target.",
-      "tactical_verdict": "HOLD_CORE",
-      "invalidation_catalyst": "Loss of key drone deployment contracts or failure to improve negative forward P/E trajectory."
-    },
-    "NBIS": {
-      "company_name": "Nebius Group",
-      "sector": "COMPUTE",
-      "technical_diagnostic": {
-        "price": 249.87,
-        "rsi_14": 58.73,
-        "is_extended": false,
-        "hard_stop_price": 220.35
-      },
-      "fundamental_assessment": "Robust GPU cloud infrastructure play with 74.2% gross margins and 454% YoY revenue growth.",
-      "tactical_verdict": "HOLD_CORE",
-      "invalidation_catalyst": "Margin compression below 65% or delays in next-gen GPU cluster deployments."
-    },
-    "RKLB": {
-      "company_name": "Rocket Lab",
-      "sector": "ROBOTICS",
-      "technical_diagnostic": {
-        "price": 75.06,
-        "rsi_14": 59.78,
-        "is_extended": false,
-        "hard_stop_price": 67.79
-      },
-      "fundamental_assessment": "Consistent Electron launch cadence and Neutron development progress. 62% YoY growth with 45% upside to mean target.",
-      "tactical_verdict": "HOLD_CORE",
-      "invalidation_catalyst": "Catastrophic launch failure or significant delays in the Neutron rocket program."
-    }
+    "turnover_intent_ratio": 0.06
   },
   "allocations": [
     {
-      "ticker": "NBIS",
-      "action": "BUY_NEW",
-      "target_weight": 0.09,
-      "sector_bucket": "COMPUTE",
-      "forecasts": {
-        "1_session": "NEUTRAL",
-        "5_session": "BULLISH",
-        "20_session": "BULLISH"
-      },
-      "risk_parameters": {
-        "stop_loss_price": 220.35,
-        "profit_taking_ladder": [
-          {
-            "target_price": 282.53,
-            "trim_fraction": 0.4
-          },
-          {
-            "target_price": 320.0,
-            "trim_fraction": 0.3
-          }
-        ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Margin compression below 65% or delays in next-gen GPU cluster deployments."
-      },
-      "analytical_thesis": {
-        "rationale": [
-          "Mandatory core holding with exceptional 454% YoY revenue growth.",
-          "High gross margin of 74.2% indicates strong pricing power in GPU cloud."
-        ],
-        "counterarguments": [
-          "Negative forward P/E indicates ongoing cash burn.",
-          "High reliance on AI infrastructure spending cycle."
-        ],
-        "hurdle_score_vs_incumbent": 1.5
-      }
-    },
-    {
-      "ticker": "ONDS",
-      "action": "BUY_NEW",
-      "target_weight": 0.08,
-      "sector_bucket": "ROBOTICS",
-      "forecasts": {
-        "1_session": "NEUTRAL",
-        "5_session": "BULLISH",
-        "20_session": "BULLISH"
-      },
-      "risk_parameters": {
-        "stop_loss_price": 6.67,
-        "profit_taking_ladder": [
-          {
-            "target_price": 13.0,
-            "trim_fraction": 0.4
-          },
-          {
-            "target_price": 18.88,
-            "trim_fraction": 0.3
-          }
-        ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Loss of key drone deployment contracts or failure to improve negative forward P/E trajectory."
-      },
-      "analytical_thesis": {
-        "rationale": [
-          "Mandatory core holding with massive 1235% YoY revenue growth.",
-          "154% upside to analyst mean target."
-        ],
-        "counterarguments": [
-          "Highly speculative with extreme negative forward P/E.",
-          "Low absolute price increases volatility risk."
-        ],
-        "hurdle_score_vs_incumbent": 1.2
-      }
-    },
-    {
-      "ticker": "RKLB",
-      "action": "BUY_NEW",
-      "target_weight": 0.09,
-      "sector_bucket": "ROBOTICS",
-      "forecasts": {
-        "1_session": "NEUTRAL",
-        "5_session": "BULLISH",
-        "20_session": "BULLISH"
-      },
-      "risk_parameters": {
-        "stop_loss_price": 67.79,
-        "profit_taking_ladder": [
-          {
-            "target_price": 109.15,
-            "trim_fraction": 0.4
-          },
-          {
-            "target_price": 130.0,
-            "trim_fraction": 0.3
-          }
-        ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Catastrophic launch failure or significant delays in the Neutron rocket program."
-      },
-      "analytical_thesis": {
-        "rationale": [
-          "Mandatory core holding with solid 62% YoY revenue growth.",
-          "Clean technical setup with RSI at 59.78 and distance to EMA20 well within limits."
-        ],
-        "counterarguments": [
-          "Extremely high forward P/E of 1390.",
-          "Space sector is highly capital intensive and prone to binary risks."
-        ],
-        "hurdle_score_vs_incumbent": 1.3
-      }
-    },
-    {
       "ticker": "NVDA",
-      "action": "BUY_NEW",
+      "action": "HOLD",
       "target_weight": 0.1,
       "sector_bucket": "COMPUTE",
       "forecasts": {
@@ -170,73 +18,110 @@
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 228.76,
+        "stop_loss_price": 227.5,
         "profit_taking_ladder": [
           {
-            "target_price": 328.72,
-            "trim_fraction": 0.4
+            "target_price": 285.0,
+            "trim_fraction": 0.3
           },
           {
-            "target_price": 400.0,
-            "trim_fraction": 0.3
+            "target_price": 328.0,
+            "trim_fraction": 0.4
           }
         ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Hyperscaler capex reduction or significant market share loss in data center GPUs."
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "Data center capex deceleration below 50% YoY or Blackwell architecture shipment delay."
       },
       "analytical_thesis": {
         "rationale": [
-          "Unmatched 74.6% gross margins and 105% YoY revenue growth.",
-          "Reasonable forward P/E of 15.14 relative to growth rate."
+          "Dominant AI compute monopoly with 74.7% gross margins and 105.9% YoY revenue growth.",
+          "Disciplined valuation at 14.95x forward P/E alongside 71.4% institutional backing led by BlackRock and Vanguard."
         ],
         "counterarguments": [
-          "High expectations leave little room for earnings misses.",
-          "Geopolitical risks regarding semiconductor supply chains."
+          "Potential hyperscaler custom ASIC substitution headwinds in long-tail inference.",
+          "Macro export restrictions tightening on high-performance accelerators."
         ],
-        "hurdle_score_vs_incumbent": 1.8
+        "hurdle_score_vs_incumbent": 1.45
       }
     },
     {
       "ticker": "AVGO",
-      "action": "BUY_NEW",
+      "action": "HOLD",
       "target_weight": 0.09,
       "sector_bucket": "COMPUTE",
       "forecasts": {
-        "1_session": "NEUTRAL",
+        "1_session": "BULLISH",
         "5_session": "BULLISH",
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 355.54,
+        "stop_loss_price": 351.5,
         "profit_taking_ladder": [
           {
-            "target_price": 531.31,
-            "trim_fraction": 0.4
+            "target_price": 440.0,
+            "trim_fraction": 0.3
           },
           {
-            "target_price": 600.0,
-            "trim_fraction": 0.3
+            "target_price": 530.0,
+            "trim_fraction": 0.4
           }
         ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Loss of major custom ASIC client or integration issues with recent acquisitions."
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "Custom silicon ASIC pipeline cancellation or Ethernet networking ASP compression."
       },
       "analytical_thesis": {
         "rationale": [
-          "Exceptional 75.5% gross margins and 85.5% YoY revenue growth.",
-          "Strong upside potential of 41.3% to analyst mean target."
+          "Premier networking and custom XPU franchise generating 75.5% gross margins and 85.5% YoY revenue growth.",
+          "High conviction options flow with put/call volume ratio of 0.52 and 79.8% institutional concentration."
         ],
         "counterarguments": [
-          "Heavy reliance on a few key customers for custom silicon.",
-          "Debt load from recent software acquisitions."
+          "Enterprise software integration friction from VMware consolidation.",
+          "Hyperscaler customer concentration risk across top two cloud clients."
         ],
-        "hurdle_score_vs_incumbent": 1.6
+        "hurdle_score_vs_incumbent": 1.38
       }
     },
     {
       "ticker": "MU",
-      "action": "BUY_NEW",
+      "action": "HOLD",
       "target_weight": 0.09,
+      "sector_bucket": "COMPUTE",
+      "forecasts": {
+        "1_session": "BULLISH",
+        "5_session": "BULLISH",
+        "20_session": "BULLISH"
+      },
+      "risk_parameters": {
+        "stop_loss_price": 980.0,
+        "profit_taking_ladder": [
+          {
+            "target_price": 1250.0,
+            "trim_fraction": 0.35
+          },
+          {
+            "target_price": 1530.0,
+            "trim_fraction": 0.35
+          }
+        ],
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "HBM3E pricing breakdown or sudden DRAM capacity glut from legacy transitions."
+      },
+      "analytical_thesis": {
+        "rationale": [
+          "Supercharged memory cycle with 379.3% YoY revenue growth, 80.7% gross margins, and a single-digit forward P/E of 5.14x.",
+          "Strong options sentiment with 0.53 put/call volume ratio and substantial institutional support (79.9%)."
+        ],
+        "counterarguments": [
+          "Historical memory cyclicity and rapid supply-demand inflection sensitivity.",
+          "High ATR requiring wide structural stop distance."
+        ],
+        "hurdle_score_vs_incumbent": 1.42
+      }
+    },
+    {
+      "ticker": "NBIS",
+      "action": "HOLD",
+      "target_weight": 0.08,
       "sector_bucket": "COMPUTE",
       "forecasts": {
         "1_session": "NEUTRAL",
@@ -244,35 +129,35 @@
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 967.37,
+        "stop_loss_price": 209.5,
         "profit_taking_ladder": [
           {
-            "target_price": 1535.57,
+            "target_price": 280.0,
             "trim_fraction": 0.4
           },
           {
-            "target_price": 1800.0,
+            "target_price": 340.0,
             "trim_fraction": 0.3
           }
         ],
         "time_stop_sessions": 15,
-        "invalidation_trigger": "Memory pricing downturn or oversupply in HBM markets."
+        "invalidation_trigger": "Gross margin deterioration below 60% or revenue growth decelerating below 100% YoY."
       },
       "analytical_thesis": {
         "rationale": [
-          "Massive 379% YoY revenue growth driven by HBM demand.",
-          "Very attractive forward P/E of 5.07 with 46.8% upside to mean target."
+          "Hypergrowth specialized compute infrastructure player printing 454% YoY top-line expansion with 74.3% gross margin.",
+          "Well-anchored technically with RSI at 53.82 and modest 0.41 ATR distance to EMA20."
         ],
         "counterarguments": [
-          "Memory market is historically highly cyclical.",
-          "Intense competition from Samsung and SK Hynix in HBM."
+          "Negative earnings profile with negative forward P/E reflecting heavy capital expenditure phase.",
+          "Short-term put bias in options flow requiring watchful trailing protection."
         ],
-        "hurdle_score_vs_incumbent": 1.7
+        "hurdle_score_vs_incumbent": 1.2
       }
     },
     {
-      "ticker": "NRG",
-      "action": "BUY_NEW",
+      "ticker": "CEG",
+      "action": "ADD",
       "target_weight": 0.09,
       "sector_bucket": "POWER",
       "forecasts": {
@@ -281,110 +166,184 @@
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 95.68,
+        "stop_loss_price": 267.5,
         "profit_taking_ladder": [
           {
-            "target_price": 185.5,
-            "trim_fraction": 0.4
+            "target_price": 340.0,
+            "trim_fraction": 0.35
           },
           {
-            "target_price": 220.0,
-            "trim_fraction": 0.3
+            "target_price": 380.0,
+            "trim_fraction": 0.35
           }
         ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "Regulatory pricing caps or severe grid failure impacting operations."
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "Regulatory pushback on behind-the-meter nuclear PPA contracts or unexpected plant outage."
       },
       "analytical_thesis": {
         "rationale": [
-          "Significant 79% upside to mean target with a low forward P/E of 9.26.",
-          "Clean technicals with RSI at 47.83, avoiding overbought territory."
+          "Premier baseload clean energy provider capturing long-duration power purchase agreements with AI hyperscalers.",
+          "Reasonable forward P/E of 21.9x and high institutional ownership of 83.0% anchored by BlackRock and Vanguard."
         ],
         "counterarguments": [
-          "Lower gross margins (18.8%) compared to tech peers.",
-          "Vulnerable to commodity price fluctuations."
+          "Capital intensity of nuclear life extensions and potential regulatory scrutiny on wholesale grid pricing.",
+          "Lower gross margin profile (22.1%) relative to pure tech infrastructure."
         ],
-        "hurdle_score_vs_incumbent": 1.4
+        "hurdle_score_vs_incumbent": 1.28
       }
     },
     {
-      "ticker": "OKLO",
-      "action": "BUY_NEW",
-      "target_weight": 0.08,
+      "ticker": "NRG",
+      "action": "HOLD",
+      "target_weight": 0.09,
       "sector_bucket": "POWER",
       "forecasts": {
-        "1_session": "NEUTRAL",
+        "1_session": "BULLISH",
         "5_session": "BULLISH",
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 34.52,
+        "stop_loss_price": 96.5,
         "profit_taking_ladder": [
           {
-            "target_price": 75.78,
+            "target_price": 140.0,
             "trim_fraction": 0.4
           },
           {
-            "target_price": 100.0,
+            "target_price": 180.0,
             "trim_fraction": 0.3
           }
         ],
-        "time_stop_sessions": 15,
-        "invalidation_trigger": "NRC licensing rejection or severe project delays."
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "ERCOT spark spread compression or leverage ratio escalation exceeding covenants."
       },
       "analytical_thesis": {
         "rationale": [
-          "High upside potential (96.5%) as a next-gen nuclear energy play.",
-          "Strong gross margins (40.4%) for the power sector."
+          "Unmatched power valuation value play at 9.36x forward P/E offering 77.2% analyst upside to mean target.",
+          "Bullish options flow with put/call volume ratio of 0.44 and high institutional base of 95.6%."
         ],
         "counterarguments": [
-          "Pre-revenue or early stage risks with negative forward P/E.",
-          "Regulatory hurdles for advanced fission deployment."
+          "Commodity sensitivity to natural gas fluctuations impacting retail power margins.",
+          "Moderate historical revenue growth at 11.0% YoY."
         ],
         "hurdle_score_vs_incumbent": 1.3
       }
     },
     {
-      "ticker": "CEG",
-      "action": "BUY_NEW",
+      "ticker": "OKLO",
+      "action": "ADD",
       "target_weight": 0.08,
       "sector_bucket": "POWER",
       "forecasts": {
-        "1_session": "NEUTRAL",
+        "1_session": "BULLISH",
         "5_session": "BULLISH",
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 276.91,
+        "stop_loss_price": 32.25,
         "profit_taking_ladder": [
           {
-            "target_price": 341.53,
+            "target_price": 55.0,
             "trim_fraction": 0.4
           },
           {
-            "target_price": 380.0,
+            "target_price": 75.0,
             "trim_fraction": 0.3
           }
         ],
         "time_stop_sessions": 15,
-        "invalidation_trigger": "PPA pricing collapse or nuclear operational issues."
+        "invalidation_trigger": "NRC license application rejection or extended pre-commercial milestone delays."
       },
       "analytical_thesis": {
         "rationale": [
-          "Prime beneficiary of AI data center baseload power demand.",
-          "Solid technical trend with RSI at 67.16, avoiding the >72 FOMO filter."
+          "Leading pure-play fast reactor SMR company with 107.4% upside to analyst mean target.",
+          "Decoupled from overbought momentum (RSI 43.75, trading below EMA20) backed by strong options call dominance (P/C 0.57)."
         ],
         "counterarguments": [
-          "Capital intensive maintenance for nuclear fleet.",
-          "Regulatory risks surrounding nuclear subsidies."
+          "Pre-revenue technology stage with elevated developmental execution risk.",
+          "Lower institutional base (47.9%) compared to large-cap utilities."
         ],
-        "hurdle_score_vs_incumbent": 1.4
+        "hurdle_score_vs_incumbent": 1.15
       }
     },
     {
       "ticker": "ISRG",
-      "action": "BUY_NEW",
+      "action": "HOLD",
       "target_weight": 0.09,
+      "sector_bucket": "ROBOTICS",
+      "forecasts": {
+        "1_session": "BULLISH",
+        "5_session": "BULLISH",
+        "20_session": "BULLISH"
+      },
+      "risk_parameters": {
+        "stop_loss_price": 391.0,
+        "profit_taking_ladder": [
+          {
+            "target_price": 450.0,
+            "trim_fraction": 0.3
+          },
+          {
+            "target_price": 480.0,
+            "trim_fraction": 0.4
+          }
+        ],
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "Da Vinci 5 procedure volume deceleration below 12% YoY or hospital capex budget freeze."
+      },
+      "analytical_thesis": {
+        "rationale": [
+          "Gold standard in medical robotics with irreplaceable recurring razor-and-blade moat and 66.7% gross margins.",
+          "Extreme options smart-money conviction with a 0.11 put/call volume ratio and 89.4% institutional backing."
+        ],
+        "counterarguments": [
+          "Upcoming earnings in 13 days introduces short-term binary volatility.",
+          "Premium forward multiple of 34.1x P/E limits rapid multiple expansion."
+        ],
+        "hurdle_score_vs_incumbent": 1.35
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "action": "ADD",
+      "target_weight": 0.09,
+      "sector_bucket": "ROBOTICS",
+      "forecasts": {
+        "1_session": "BULLISH",
+        "5_session": "BULLISH",
+        "20_session": "BULLISH"
+      },
+      "risk_parameters": {
+        "stop_loss_price": 64.0,
+        "profit_taking_ladder": [
+          {
+            "target_price": 90.0,
+            "trim_fraction": 0.35
+          },
+          {
+            "target_price": 109.0,
+            "trim_fraction": 0.35
+          }
+        ],
+        "time_stop_sessions": 20,
+        "invalidation_trigger": "Neutron hot fire / launch schedule delay past 12 months or Electron cadence failure."
+      },
+      "analytical_thesis": {
+        "rationale": [
+          "End-to-end space robotics and satellite systems provider sustaining 62.0% YoY revenue growth and multi-billion backlog.",
+          "Clean technical consolidation near EMA20 (RSI 52.15) with heavy call accumulation (P/C ratio 0.41)."
+        ],
+        "counterarguments": [
+          "Capital-intensive development of medium-lift Neutron vehicle.",
+          "High forward P/E requiring continued flawless operational execution."
+        ],
+        "hurdle_score_vs_incumbent": 1.25
+      }
+    },
+    {
+      "ticker": "ONDS",
+      "action": "ADD",
+      "target_weight": 0.08,
       "sector_bucket": "ROBOTICS",
       "forecasts": {
         "1_session": "NEUTRAL",
@@ -392,30 +351,30 @@
         "20_session": "BULLISH"
       },
       "risk_parameters": {
-        "stop_loss_price": 384.13,
+        "stop_loss_price": 6.3,
         "profit_taking_ladder": [
           {
-            "target_price": 477.21,
+            "target_price": 12.0,
             "trim_fraction": 0.4
           },
           {
-            "target_price": 550.0,
+            "target_price": 18.0,
             "trim_fraction": 0.3
           }
         ],
         "time_stop_sessions": 15,
-        "invalidation_trigger": "Hospital capex freeze or major product recall."
+        "invalidation_trigger": "Autonomous security drone program cancellations or gross margin drop below 35%."
       },
       "analytical_thesis": {
         "rationale": [
-          "Dominant moat in robotic surgery with 66.6% gross margins.",
-          "Steady 18.5% YoY revenue growth and clean technical setup (RSI 57.99)."
+          "Explosive autonomous perimeter robotics growth printing over 10x YoY revenue surge with 167.0% upside to consensus target.",
+          "Extremely bullish options skew (put/call volume ratio 0.24) and constructive base building around $7 support."
         ],
         "counterarguments": [
-          "Premium valuation with forward P/E of 33.46.",
-          "Increasing competition from Medtronic and J&J in soft tissue robotics."
+          "Small-cap volatility profile and negative GAAP operating margins.",
+          "Recent minor drawdowns requiring disciplined structural risk bounds."
         ],
-        "hurdle_score_vs_incumbent": 1.5
+        "hurdle_score_vs_incumbent": 1.18
       }
     }
   ]

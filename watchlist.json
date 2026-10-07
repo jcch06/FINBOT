@@ -1,0 +1,38 @@
+{
+  "COMPUTE": [
+    "MU",
+    "NBIS",
+    "NVDA",
+    "AVGO",
+    "PLTR",
+    "TSM",
+    "VRT",
+    "ANET",
+    "CLS",
+    "MRVL"
+  ],
+  "POWER": [
+    "OKLO",
+    "NNE",
+    "TLN",
+    "NRG",
+    "BWXT",
+    "NEE",
+    "SMR",
+    "CCJ",
+    "GEV",
+    "DUK"
+  ],
+  "ROBOTICS": [
+    "ONDS",
+    "JOBY",
+    "SERV",
+    "AUR",
+    "ASTS",
+    "ACHR",
+    "RKLB",
+    "TER",
+    "MBLY",
+    "CGNX"
+  ]
+}
