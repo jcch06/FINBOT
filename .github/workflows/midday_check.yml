@@ -1,0 +1,43 @@
+name: Midday Risk Sentinel & Position Health Check
+
+on:
+  schedule:
+    # 16:30 UTC = 12:30 New York (EDT) / 18:30 Paris (CEST) du lundi au vendredi
+    - cron: '30 16 * * 1-5'
+  workflow_dispatch: # Permet de lancer un contrôle en direct à tout moment
+
+jobs:
+  midday_check:
+    name: Midday Position & Stop-Loss Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Midday Position & Risk Sentinel
+        env:
+          APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+          APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+          APCA_API_BASE_URL: "https://paper-api.alpaca.markets"
+        run: |
+          python midday_check.py
+
+      - name: Upload Midday Report Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: midday-health-report
+          path: midday_report.json
+          retention-days: 7
