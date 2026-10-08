@@ -9,27 +9,27 @@
     "PLTR",
     "CDNS",
     "TSM",
-    "VRT"
+    "CLS"
   ],
   "POWER": [
     "OKLO",
     "NNE",
     "TLN",
     "BE",
-    "NRG",
     "LEU",
     "NXE",
-    "BWXT",
+    "NRG",
     "UEC",
-    "NEE"
+    "BWXT",
+    "PCG"
   ],
   "ROBOTICS": [
     "ONDS",
-    "JOBY",
     "LUNR",
+    "JOBY",
     "SERV",
-    "AUR",
     "PL",
+    "AUR",
     "ASTS",
     "KTOS",
     "AXON",
@@ -39,12 +39,12 @@
     "ARVN",
     "BBIO",
     "EDIT",
-    "ALNY",
     "CRSP",
+    "NAUT",
+    "ALNY",
     "KYMR",
-    "BMRN",
     "ARGX",
-    "PRME",
-    "BEAM"
+    "BMRN",
+    "PRME"
   ]
 }
