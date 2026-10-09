@@ -4,12 +4,12 @@
     "NBIS",
     "NVDA",
     "AVGO",
-    "ORCL",
     "WDC",
-    "PLTR",
-    "CDNS",
+    "ORCL",
     "TSM",
-    "CLS"
+    "CDNS",
+    "MRVL",
+    "META"
   ],
   "POWER": [
     "OKLO",
@@ -17,20 +17,20 @@
     "TLN",
     "BE",
     "LEU",
-    "NXE",
     "NRG",
+    "NXE",
     "UEC",
     "BWXT",
     "PCG"
   ],
   "ROBOTICS": [
     "ONDS",
-    "LUNR",
     "JOBY",
+    "LUNR",
     "SERV",
+    "ASTS",
     "PL",
     "AUR",
-    "ASTS",
     "KTOS",
     "AXON",
     "AEVA"
@@ -42,9 +42,9 @@
     "CRSP",
     "NAUT",
     "ALNY",
-    "KYMR",
     "ARGX",
+    "KYMR",
     "BMRN",
-    "PRME"
+    "BEAM"
   ]
 }
