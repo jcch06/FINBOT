@@ -9,7 +9,7 @@
     "TSM",
     "CDNS",
     "META",
-    "MRVL"
+    "ARM"
   ],
   "POWER": [
     "OKLO",
@@ -29,8 +29,8 @@
     "LUNR",
     "SERV",
     "ASTS",
-    "PL",
     "AUR",
+    "PL",
     "KTOS",
     "AXON",
     "AEVA"
@@ -41,8 +41,8 @@
     "EDIT",
     "CRSP",
     "ALNY",
-    "ARGX",
     "KYMR",
+    "ARGX",
     "BMRN",
     "BEAM",
     "CRBU"
