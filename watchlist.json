@@ -8,8 +8,8 @@
     "ORCL",
     "TSM",
     "CDNS",
-    "MRVL",
-    "META"
+    "META",
+    "MRVL"
   ],
   "POWER": [
     "OKLO",
@@ -21,7 +21,7 @@
     "NXE",
     "UEC",
     "BWXT",
-    "PCG"
+    "NEE"
   ],
   "ROBOTICS": [
     "ONDS",
@@ -40,11 +40,11 @@
     "BBIO",
     "EDIT",
     "CRSP",
-    "NAUT",
     "ALNY",
     "ARGX",
     "KYMR",
     "BMRN",
-    "BEAM"
+    "BEAM",
+    "CRBU"
   ]
 }
