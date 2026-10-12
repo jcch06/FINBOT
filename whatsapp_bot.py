@@ -309,11 +309,11 @@ async def twilio_whatsapp_webhook(request: Request):
             # 2. Sinon, solliciter Gemini avec le contexte en temps réel
             reply_text = ask_gemini_assistant(incoming_msg)
 
-    # Réponse au format TwiML XML requis par Twilio
+    # Réponse au format TwiML XML requis par Twilio (DOIT impérativement être text/xml)
     resp = MessagingResponse()
     resp.message(reply_text)
 
-    return Response(content=str(resp), media_type="application/xml")
+    return Response(content=str(resp), media_type="text/xml", headers={"Content-Type": "text/xml; charset=utf-8"})
 
 
 @app.get("/")
@@ -343,6 +343,9 @@ def send_whatsapp_push_notification(message: str, to_number: Optional[str] = Non
     account_sid = os.getenv("TWILIO_ACCOUNT_SID")
     auth_token = os.getenv("TWILIO_AUTH_TOKEN")
     from_whatsapp = os.getenv("TWILIO_WHATSAPP_NUMBER", "whatsapp:+14155238886")
+    if from_whatsapp and not from_whatsapp.startswith("whatsapp:"):
+        from_whatsapp = f"whatsapp:{from_whatsapp}"
+
     target_number = to_number or os.getenv("USER_PHONE_NUMBER")
 
     if not account_sid or not auth_token or not target_number:
