@@ -122,6 +122,22 @@ def main():
         from execute_orders import execute_orders_on_alpaca
         execute_orders_on_alpaca("executed_orders_batch.json", dry_run=False)
 
+    # 6. Notification WhatsApp sortante (si Twilio est configuré)
+    try:
+        from whatsapp_bot import send_whatsapp_push_notification
+        orders_count = audit_result.get("total_orders_generated", 0)
+        summary_msg = (
+            f"🔔 *FINBOT : Rebalancement Terminé*\n\n"
+            f"• *Ordres traités :* {orders_count}\n"
+            f"• *Achats :* {audit_result.get('total_buy_notional_usd', 0):,.2f} $\n"
+            f"• *Ventes :* {audit_result.get('total_sell_notional_usd', 0):,.2f} $\n"
+            f"• *Impact Cash :* {audit_result.get('net_capital_flow_usd', 0):,.2f} $\n\n"
+            f"_Tapez *positions* ou *pnl* sur WhatsApp pour le détail._"
+        )
+        send_whatsapp_push_notification(summary_msg)
+    except Exception as e:
+        logger.debug(f"Notification WhatsApp passée: {e}")
+
     logger.info("PIPELINE EXECUTION FINISHED SUCCESSFULLY.")
     logger.info("==========================================================")
 

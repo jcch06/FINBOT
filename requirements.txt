@@ -5,3 +5,7 @@ pandas
 numpy
 requests
 python-dotenv
+fastapi
+uvicorn
+python-multipart
+twilio

@@ -44,6 +44,10 @@ jobs:
           GEMINI_MODEL: "gemini-3.8-flash"
           AUTO_ESCALATE_TO_PRO: "true"
           AUTO_EXECUTE: "true"
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_WHATSAPP_NUMBER: ${{ secrets.TWILIO_WHATSAPP_NUMBER }}
+          USER_PHONE_NUMBER: ${{ secrets.USER_PHONE_NUMBER }}
         run: |
           python run_rebalance.py
 

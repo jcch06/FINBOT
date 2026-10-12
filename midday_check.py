@@ -167,5 +167,28 @@ def run_midday_check(payload_file: str = "oms_payload.json", auto_exit_on_stop: 
                 for a in alerts:
                     gf.write(f"- {a}\n")
 
+    # Notification WhatsApp sortante (si Twilio configuré)
+    try:
+        from whatsapp_bot import send_whatsapp_push_notification
+        pnl_sign = "+" if total_unrealized_pl >= 0 else ""
+        if alerts:
+            msg = (
+                f"🚨 *ALERTE RISQUE FINBOT (Midday)*\n\n"
+                f"• PnL : {pnl_sign}{total_unrealized_pl:,.2f} $\n"
+                f"• Alertes : {len(alerts)}\n"
+                + "\n".join([f"⚠️ {a}" for a in alerts])
+            )
+        else:
+            msg = (
+                f"🛡️ *FINBOT : Check Mi-Séance Sûr*\n\n"
+                f"• Total Equity : {total_equity:,.2f} $\n"
+                f"• Cash : {cash_balance:,.2f} $\n"
+                f"• PnL latent : {pnl_sign}{total_unrealized_pl:,.2f} $\n"
+                f"Toutes les {len(report_lines)} positions respectent leurs stop-loss."
+            )
+        send_whatsapp_push_notification(msg)
+    except Exception as e:
+        logger.debug(f"Notification WhatsApp passée: {e}")
+
 if __name__ == "__main__":
     run_midday_check()
