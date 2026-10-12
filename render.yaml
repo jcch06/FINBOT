@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: finbot-whatsapp
+    runtime: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn whatsapp_bot:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: APCA_API_BASE_URL
+        value: https://paper-api.alpaca.markets
+      - key: TWILIO_WHATSAPP_NUMBER
+        value: +14155238886
+      - key: APCA_API_KEY_ID
+        sync: false
+      - key: APCA_API_SECRET_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: USER_PHONE_NUMBER
+        sync: false
