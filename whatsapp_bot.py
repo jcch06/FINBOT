@@ -289,6 +289,7 @@ def ask_gemini_assistant(user_prompt: str) -> str:
 
 @app.post("/whatsapp")
 @app.post("/webhook")
+@app.post("/w")
 async def twilio_whatsapp_webhook(request: Request):
     """Point d'entrée HTTP appelé par Twilio à chaque message WhatsApp reçu."""
     form_data = await request.form()
