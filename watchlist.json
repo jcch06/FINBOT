@@ -4,12 +4,12 @@
     "NBIS",
     "NVDA",
     "AVGO",
-    "ORCL",
     "WDC",
-    "TSM",
+    "ORCL",
     "SNPS",
+    "TSM",
     "CDNS",
-    "ARM"
+    "AMAT"
   ],
   "POWER": [
     "OKLO",
@@ -18,22 +18,22 @@
     "TLN",
     "LEU",
     "NXE",
-    "NRG",
     "UEC",
-    "BWXT",
-    "SMR"
+    "NRG",
+    "SMR",
+    "BWXT"
   ],
   "ROBOTICS": [
     "ONDS",
     "JOBY",
     "LUNR",
     "SERV",
-    "PL",
     "ASTS",
+    "PL",
     "AUR",
     "KTOS",
-    "AXON",
-    "AEVA"
+    "OUST",
+    "RKLB"
   ],
   "BIOTECH": [
     "ARVN",
@@ -41,10 +41,10 @@
     "EDIT",
     "CRSP",
     "ALNY",
+    "NAUT",
     "KYMR",
     "ARGX",
     "BMRN",
-    "PRME",
-    "BEAM"
+    "PRME"
   ]
 }
