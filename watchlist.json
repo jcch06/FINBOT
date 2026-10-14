@@ -6,19 +6,19 @@
     "AVGO",
     "WDC",
     "ORCL",
+    "PLTR",
     "SNPS",
     "TSM",
-    "CDNS",
-    "AMAT"
+    "CDNS"
   ],
   "POWER": [
     "OKLO",
-    "NNE",
     "BE",
+    "NNE",
     "TLN",
     "LEU",
-    "NXE",
     "UEC",
+    "NXE",
     "NRG",
     "SMR",
     "BWXT"
@@ -31,9 +31,9 @@
     "ASTS",
     "PL",
     "AUR",
-    "KTOS",
     "OUST",
-    "RKLB"
+    "RKLB",
+    "KTOS"
   ],
   "BIOTECH": [
     "ARVN",
