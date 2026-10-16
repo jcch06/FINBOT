@@ -8,19 +8,19 @@
     "ORCL",
     "PLTR",
     "SNPS",
-    "CLS",
-    "TSM"
+    "TSM",
+    "CLS"
   ],
   "POWER": [
     "BE",
     "OKLO",
-    "TLN",
     "NNE",
+    "TLN",
     "LEU",
     "UEC",
-    "NRG",
-    "SMR",
     "NXE",
+    "SMR",
+    "NRG",
     "BWXT"
   ],
   "ROBOTICS": [
@@ -30,15 +30,15 @@
     "SERV",
     "ASTS",
     "PL",
+    "OUST",
     "AUR",
     "RKLB",
-    "OUST",
-    "KTOS"
+    "TER"
   ],
   "BIOTECH": [
     "ARVN",
-    "EDIT",
     "BBIO",
+    "EDIT",
     "CRSP",
     "ALNY",
     "NAUT",
