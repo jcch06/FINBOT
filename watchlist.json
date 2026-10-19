@@ -7,20 +7,20 @@
     "WDC",
     "ORCL",
     "PLTR",
-    "SNPS",
     "TSM",
+    "SNPS",
     "CLS"
   ],
   "POWER": [
     "BE",
     "OKLO",
-    "NNE",
     "TLN",
+    "NNE",
     "LEU",
     "UEC",
-    "NXE",
-    "SMR",
     "NRG",
+    "SMR",
+    "NXE",
     "BWXT"
   ],
   "ROBOTICS": [
@@ -33,18 +33,18 @@
     "OUST",
     "AUR",
     "RKLB",
-    "TER"
+    "AXON"
   ],
   "BIOTECH": [
     "ARVN",
-    "BBIO",
     "EDIT",
+    "BBIO",
     "CRSP",
     "ALNY",
-    "NAUT",
     "KYMR",
     "ARGX",
     "BMRN",
-    "PRME"
+    "PRME",
+    "BEAM"
   ]
 }
