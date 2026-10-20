@@ -18,8 +18,8 @@
     "NNE",
     "LEU",
     "UEC",
-    "NRG",
     "SMR",
+    "NRG",
     "NXE",
     "BWXT"
   ],
@@ -27,13 +27,13 @@
     "ONDS",
     "JOBY",
     "LUNR",
-    "SERV",
     "ASTS",
+    "SERV",
     "PL",
     "OUST",
     "AUR",
     "RKLB",
-    "AXON"
+    "TER"
   ],
   "BIOTECH": [
     "ARVN",
@@ -42,9 +42,9 @@
     "CRSP",
     "ALNY",
     "KYMR",
-    "ARGX",
     "BMRN",
-    "PRME",
-    "BEAM"
+    "ARGX",
+    "BEAM",
+    "RXRX"
   ]
 }
