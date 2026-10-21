@@ -4,8 +4,8 @@
     "NBIS",
     "NVDA",
     "AVGO",
-    "WDC",
     "ORCL",
+    "WDC",
     "PLTR",
     "TSM",
     "SNPS",
@@ -14,9 +14,9 @@
   "POWER": [
     "BE",
     "OKLO",
-    "TLN",
     "NNE",
     "LEU",
+    "TLN",
     "UEC",
     "SMR",
     "NRG",
@@ -30,10 +30,10 @@
     "ASTS",
     "SERV",
     "PL",
-    "OUST",
     "AUR",
+    "OUST",
     "RKLB",
-    "TER"
+    "KTOS"
   ],
   "BIOTECH": [
     "ARVN",
@@ -45,6 +45,6 @@
     "BMRN",
     "ARGX",
     "BEAM",
-    "RXRX"
+    "CRBU"
   ]
 }
