@@ -7,8 +7,8 @@
     "ORCL",
     "WDC",
     "CLS",
+    "LRCX",
     "PLTR",
-    "TSM",
     "SNPS"
   ],
   "POWER": [
@@ -17,9 +17,9 @@
     "OKLO",
     "NNE",
     "LEU",
+    "NRG",
     "UEC",
     "NXE",
-    "NRG",
     "SMR",
     "BWXT"
   ],
@@ -42,9 +42,9 @@
     "CRSP",
     "ALNY",
     "KYMR",
-    "NAUT",
     "BMRN",
     "ARGX",
-    "PRME"
+    "PRME",
+    "BEAM"
   ]
 }
