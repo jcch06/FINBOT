@@ -9,12 +9,12 @@
     "CLS",
     "LRCX",
     "PLTR",
-    "SNPS"
+    "TSM"
   ],
   "POWER": [
     "BE",
-    "TLN",
     "OKLO",
+    "TLN",
     "NNE",
     "LEU",
     "NRG",
@@ -30,8 +30,8 @@
     "LUNR",
     "SERV",
     "PL",
-    "OUST",
     "AUR",
+    "OUST",
     "RKLB",
     "TER"
   ],
@@ -41,10 +41,10 @@
     "BBIO",
     "CRSP",
     "ALNY",
+    "NAUT",
     "KYMR",
     "BMRN",
     "ARGX",
-    "PRME",
-    "BEAM"
+    "PRME"
   ]
 }
