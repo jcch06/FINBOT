@@ -6,8 +6,8 @@
     "AVGO",
     "ORCL",
     "WDC",
-    "CLS",
     "LRCX",
+    "CLS",
     "PLTR",
     "TSM"
   ],
@@ -17,23 +17,23 @@
     "TLN",
     "NNE",
     "LEU",
-    "NRG",
     "UEC",
-    "NXE",
+    "NRG",
     "SMR",
+    "NXE",
     "BWXT"
   ],
   "ROBOTICS": [
     "ONDS",
     "JOBY",
-    "ASTS",
     "LUNR",
     "SERV",
+    "ASTS",
     "PL",
     "AUR",
     "OUST",
-    "RKLB",
-    "TER"
+    "TER",
+    "RKLB"
   ],
   "BIOTECH": [
     "ARVN",
@@ -41,10 +41,10 @@
     "BBIO",
     "CRSP",
     "ALNY",
-    "NAUT",
     "KYMR",
     "BMRN",
+    "NAUT",
     "ARGX",
-    "PRME"
+    "BEAM"
   ]
 }
