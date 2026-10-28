@@ -6,9 +6,9 @@
     "AVGO",
     "ORCL",
     "WDC",
-    "LRCX",
-    "CLS",
     "PLTR",
+    "CLS",
+    "LRCX",
     "TSM"
   ],
   "POWER": [
@@ -27,12 +27,12 @@
     "ONDS",
     "JOBY",
     "LUNR",
-    "SERV",
     "ASTS",
+    "SERV",
     "PL",
     "AUR",
-    "OUST",
     "TER",
+    "OUST",
     "RKLB"
   ],
   "BIOTECH": [
@@ -43,8 +43,8 @@
     "ALNY",
     "KYMR",
     "BMRN",
-    "NAUT",
     "ARGX",
-    "BEAM"
+    "CRBU",
+    "IONS"
   ]
 }
