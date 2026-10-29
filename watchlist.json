@@ -6,10 +6,10 @@
     "AVGO",
     "ORCL",
     "WDC",
-    "PLTR",
     "CLS",
-    "LRCX",
-    "TSM"
+    "PLTR",
+    "MRVL",
+    "LRCX"
   ],
   "POWER": [
     "BE",
@@ -18,33 +18,33 @@
     "NNE",
     "LEU",
     "UEC",
+    "NXE",
     "NRG",
     "SMR",
-    "NXE",
     "BWXT"
   ],
   "ROBOTICS": [
     "ONDS",
     "JOBY",
     "LUNR",
-    "ASTS",
     "SERV",
+    "ASTS",
     "PL",
     "AUR",
-    "TER",
     "OUST",
-    "RKLB"
+    "KTOS",
+    "INVZ"
   ],
   "BIOTECH": [
     "ARVN",
     "EDIT",
+    "ALNY",
     "BBIO",
     "CRSP",
-    "ALNY",
     "KYMR",
     "BMRN",
     "ARGX",
-    "CRBU",
-    "IONS"
+    "NAUT",
+    "CRBU"
   ]
 }
