@@ -1,14 +1,14 @@
 {
   "COMPUTE": [
-    "MU",
     "NBIS",
+    "MU",
     "NVDA",
     "AVGO",
     "ORCL",
-    "WDC",
     "CLS",
-    "PLTR",
+    "WDC",
     "MRVL",
+    "PLTR",
     "LRCX"
   ],
   "POWER": [
@@ -21,30 +21,30 @@
     "NXE",
     "NRG",
     "SMR",
-    "BWXT"
+    "CCJ"
   ],
   "ROBOTICS": [
     "ONDS",
     "JOBY",
     "LUNR",
-    "SERV",
     "ASTS",
-    "PL",
+    "SERV",
     "AUR",
+    "PL",
     "OUST",
-    "KTOS",
-    "INVZ"
+    "RKLB",
+    "TER"
   ],
   "BIOTECH": [
     "ARVN",
     "EDIT",
-    "ALNY",
     "BBIO",
     "CRSP",
-    "KYMR",
+    "ALNY",
+    "NAUT",
     "BMRN",
     "ARGX",
-    "NAUT",
-    "CRBU"
+    "CRBU",
+    "HIMS"
   ]
 }
