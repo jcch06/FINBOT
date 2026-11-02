@@ -5,29 +5,29 @@
     "NVDA",
     "AVGO",
     "ORCL",
-    "CLS",
-    "WDC",
     "MRVL",
+    "WDC",
+    "CLS",
     "PLTR",
     "LRCX"
   ],
   "POWER": [
     "BE",
-    "OKLO",
     "TLN",
+    "OKLO",
     "NNE",
     "LEU",
     "UEC",
     "NXE",
-    "NRG",
     "SMR",
+    "NRG",
     "CCJ"
   ],
   "ROBOTICS": [
     "ONDS",
+    "ASTS",
     "JOBY",
     "LUNR",
-    "ASTS",
     "SERV",
     "AUR",
     "PL",
@@ -44,7 +44,7 @@
     "NAUT",
     "BMRN",
     "ARGX",
-    "CRBU",
-    "HIMS"
+    "HIMS",
+    "IONS"
   ]
 }
