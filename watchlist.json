@@ -1,22 +1,22 @@
 {
   "COMPUTE": [
-    "NBIS",
     "MU",
+    "NBIS",
     "NVDA",
     "AVGO",
-    "ORCL",
-    "MRVL",
     "WDC",
+    "MRVL",
+    "ORCL",
     "CLS",
     "PLTR",
     "LRCX"
   ],
   "POWER": [
     "BE",
-    "TLN",
     "OKLO",
     "NNE",
     "LEU",
+    "TLN",
     "UEC",
     "NXE",
     "SMR",
@@ -25,8 +25,8 @@
   ],
   "ROBOTICS": [
     "ONDS",
-    "ASTS",
     "JOBY",
+    "ASTS",
     "LUNR",
     "SERV",
     "AUR",
