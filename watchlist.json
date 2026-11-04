@@ -1,13 +1,13 @@
 {
   "COMPUTE": [
-    "MU",
     "NBIS",
+    "MU",
     "NVDA",
     "AVGO",
+    "CLS",
     "WDC",
     "MRVL",
     "ORCL",
-    "CLS",
     "PLTR",
     "LRCX"
   ],
@@ -17,34 +17,34 @@
     "NNE",
     "LEU",
     "TLN",
+    "NRG",
     "UEC",
     "NXE",
     "SMR",
-    "NRG",
-    "CCJ"
+    "BWXT"
   ],
   "ROBOTICS": [
     "ONDS",
-    "JOBY",
     "ASTS",
+    "JOBY",
     "LUNR",
     "SERV",
     "AUR",
     "PL",
-    "OUST",
     "RKLB",
-    "TER"
+    "TER",
+    "OUST"
   ],
   "BIOTECH": [
-    "ARVN",
     "EDIT",
     "BBIO",
-    "CRSP",
+    "RXRX",
     "ALNY",
+    "ARVN",
+    "CRSP",
     "NAUT",
     "BMRN",
     "ARGX",
-    "HIMS",
     "IONS"
   ]
 }
