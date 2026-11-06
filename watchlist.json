@@ -5,46 +5,46 @@
     "NVDA",
     "AVGO",
     "WDC",
-    "SMCI",
     "CLS",
     "ORCL",
-    "LRCX",
+    "MRVL",
+    "SMCI",
     "VRT"
   ],
   "POWER": [
     "BE",
-    "TLN",
     "OKLO",
     "NNE",
-    "LEU",
+    "TLN",
     "NRG",
     "UEC",
     "NXE",
+    "LEU",
     "BWXT",
     "SMR"
   ],
   "ROBOTICS": [
     "ONDS",
     "ASTS",
-    "JOBY",
     "LUNR",
     "SERV",
     "AUR",
+    "JOBY",
     "TER",
+    "AEVA",
     "PL",
-    "RKLB",
-    "OUST"
+    "RKLB"
   ],
   "BIOTECH": [
     "EDIT",
     "RXRX",
     "BBIO",
-    "NAUT",
-    "ALNY",
     "CRSP",
+    "ALNY",
     "ARVN",
+    "NAUT",
     "BMRN",
-    "HIMS",
-    "ARGX"
+    "ARGX",
+    "NTRA"
   ]
 }
