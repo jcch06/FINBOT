@@ -6,22 +6,22 @@
     "AVGO",
     "WDC",
     "CLS",
-    "ORCL",
     "MRVL",
+    "ORCL",
     "SMCI",
-    "VRT"
+    "PLTR"
   ],
   "POWER": [
     "BE",
     "OKLO",
     "NNE",
     "TLN",
-    "NRG",
     "UEC",
+    "VST",
     "NXE",
-    "LEU",
+    "NRG",
     "BWXT",
-    "SMR"
+    "CCJ"
   ],
   "ROBOTICS": [
     "ONDS",
@@ -29,22 +29,22 @@
     "LUNR",
     "SERV",
     "AUR",
-    "JOBY",
-    "TER",
     "AEVA",
     "PL",
-    "RKLB"
+    "TER",
+    "JOBY",
+    "INVZ"
   ],
   "BIOTECH": [
     "EDIT",
-    "RXRX",
     "BBIO",
+    "RXRX",
     "CRSP",
     "ALNY",
     "ARVN",
     "NAUT",
     "BMRN",
-    "ARGX",
+    "HIMS",
     "NTRA"
   ]
 }
