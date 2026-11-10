@@ -3,12 +3,12 @@
     "MU",
     "NBIS",
     "NVDA",
-    "AVGO",
     "WDC",
+    "AVGO",
     "CLS",
-    "MRVL",
-    "ORCL",
     "SMCI",
+    "ORCL",
+    "MRVL",
     "PLTR"
   ],
   "POWER": [
@@ -17,10 +17,10 @@
     "NNE",
     "TLN",
     "UEC",
-    "VST",
     "NXE",
     "NRG",
-    "BWXT",
+    "VST",
+    "GEV",
     "CCJ"
   ],
   "ROBOTICS": [
@@ -31,20 +31,20 @@
     "AUR",
     "AEVA",
     "PL",
-    "TER",
     "JOBY",
+    "TER",
     "INVZ"
   ],
   "BIOTECH": [
-    "EDIT",
-    "BBIO",
     "RXRX",
+    "BBIO",
     "CRSP",
     "ALNY",
     "ARVN",
+    "IONS",
     "NAUT",
-    "BMRN",
     "HIMS",
-    "NTRA"
+    "EDIT",
+    "ROIV"
   ]
 }
