@@ -7,9 +7,9 @@
     "AVGO",
     "CLS",
     "SMCI",
+    "PLTR",
     "ORCL",
-    "MRVL",
-    "PLTR"
+    "MRVL"
   ],
   "POWER": [
     "BE",
@@ -17,23 +17,23 @@
     "NNE",
     "TLN",
     "UEC",
-    "NXE",
     "NRG",
     "VST",
-    "GEV",
+    "NXE",
+    "BWXT",
     "CCJ"
   ],
   "ROBOTICS": [
     "ONDS",
-    "ASTS",
     "LUNR",
+    "ASTS",
     "SERV",
     "AUR",
-    "AEVA",
     "PL",
+    "AEVA",
+    "INVZ",
     "JOBY",
-    "TER",
-    "INVZ"
+    "TER"
   ],
   "BIOTECH": [
     "RXRX",
@@ -43,8 +43,8 @@
     "ARVN",
     "IONS",
     "NAUT",
-    "HIMS",
     "EDIT",
-    "ROIV"
+    "ROIV",
+    "HIMS"
   ]
 }
