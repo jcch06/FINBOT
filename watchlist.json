@@ -3,13 +3,13 @@
     "MU",
     "NBIS",
     "NVDA",
-    "WDC",
     "SMCI",
-    "MRVL",
+    "WDC",
     "AVGO",
-    "CLS",
     "ORCL",
-    "PLTR"
+    "MRVL",
+    "PLTR",
+    "CLS"
   ],
   "POWER": [
     "BE",
@@ -20,16 +20,16 @@
     "NXE",
     "NRG",
     "VST",
-    "LEU",
+    "CCJ",
     "BWXT"
   ],
   "ROBOTICS": [
-    "ONDS",
     "ASTS",
+    "ONDS",
     "LUNR",
+    "JOBY",
     "SERV",
     "AUR",
-    "JOBY",
     "AEVA",
     "PL",
     "TER",
@@ -40,11 +40,11 @@
     "RXRX",
     "BBIO",
     "PRME",
-    "ARVN",
-    "ALNY",
-    "IONS",
     "NAUT",
-    "EDIT",
-    "ROIV"
+    "ALNY",
+    "ARVN",
+    "IONS",
+    "ROIV",
+    "HIMS"
   ]
 }
