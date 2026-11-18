@@ -6,9 +6,9 @@
     "SMCI",
     "WDC",
     "ORCL",
-    "AVGO",
     "PLTR",
     "MRVL",
+    "AVGO",
     "CLS"
   ],
   "POWER": [
@@ -20,8 +20,8 @@
     "NXE",
     "CCJ",
     "VST",
-    "NRG",
-    "LEU"
+    "LEU",
+    "NRG"
   ],
   "ROBOTICS": [
     "ASTS",
@@ -43,8 +43,8 @@
     "ALNY",
     "ARVN",
     "IONS",
-    "NAUT",
     "HIMS",
+    "NAUT",
     "ROIV"
   ]
 }
