@@ -2,8 +2,8 @@
   "COMPUTE": [
     "MU",
     "NBIS",
-    "NVDA",
     "SMCI",
+    "NVDA",
     "WDC",
     "ORCL",
     "PLTR",
@@ -16,9 +16,9 @@
     "OKLO",
     "NNE",
     "TLN",
+    "CCJ",
     "UEC",
     "NXE",
-    "CCJ",
     "VST",
     "LEU",
     "NRG"
@@ -38,13 +38,13 @@
   "BIOTECH": [
     "CRSP",
     "RXRX",
-    "BBIO",
     "PRME",
+    "BBIO",
     "ALNY",
+    "NAUT",
+    "HIMS",
     "ARVN",
     "IONS",
-    "HIMS",
-    "NAUT",
     "ROIV"
   ]
 }
