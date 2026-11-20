@@ -4,11 +4,11 @@
     "NBIS",
     "SMCI",
     "NVDA",
-    "WDC",
-    "ORCL",
-    "PLTR",
-    "MRVL",
     "AVGO",
+    "WDC",
+    "PLTR",
+    "VRT",
+    "LRCX",
     "CLS"
   ],
   "POWER": [
@@ -17,11 +17,11 @@
     "NNE",
     "TLN",
     "CCJ",
+    "VST",
     "UEC",
     "NXE",
-    "VST",
-    "LEU",
-    "NRG"
+    "NRG",
+    "LEU"
   ],
   "ROBOTICS": [
     "ASTS",
@@ -30,19 +30,19 @@
     "LUNR",
     "SERV",
     "AUR",
+    "TER",
     "AEVA",
     "PL",
-    "TER",
     "RKLB"
   ],
   "BIOTECH": [
+    "PRME",
     "CRSP",
     "RXRX",
-    "PRME",
     "BBIO",
-    "ALNY",
-    "NAUT",
     "HIMS",
+    "NAUT",
+    "ALNY",
     "ARVN",
     "IONS",
     "ROIV"
